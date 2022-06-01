@@ -1,14 +1,22 @@
 body {
     background-color: rgb(251, 251, 251);
+    font-size: 1.5rem;
 }
+
+h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
 header {
     width: 90vw;
     grid-template-columns: 1fr 10fr 1fr;;
     margin: 5px;
 }
+
 button {
     border: none;
     background-color: inherit;
+    font-size: 2rem;
 }
 
 .txt-center {
@@ -64,6 +72,7 @@ button {
     padding: 12px 18px;
     border: none;
     background-color: gainsboro;
+    font-size: 1em;
 }
 
 .keyrow {
