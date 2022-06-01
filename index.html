@@ -5,11 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wordle</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>Wordle</header>
-    <main>Game</main>
-    <footer>Thanks</footer>
+    <div class="wrapper grid center-content">
+        <header class="grid center-content txt-center">
+            <div class="">
+                <button><i class="fa-solid fa-bars"></i></button>
+                <button><i class="fa-solid fa-circle-info"></i></button>
+            </div>
+            <div>
+                <h1>Wordle</h1>
+            </div>
+            <div>
+                <button><i class="fa-solid fa-square-poll-vertical"></i></button>
+                <button><i class="fa-solid fa-gear"></i></button>                      
+            </div>
+        </header>
+        <main class="gm-container">
+            <div class="gm-outline">
+                <div class="grid center-content gm-box">
+                    <div class="grid center-content row r1">
+                        <div class="letter blank l1"></div>
+                        <div class="letter blank l2"></div>
+                        <div class="letter blank l3"></div>
+                        <div class="letter blank l4"></div>
+                        <div class="letter blank l5"></div>
+                    </div>
+                    <div class="grid center-content row r2">
+                        <div class="letter blank l1"></div>
+                        <div class="letter blank l2"></div>
+                        <div class="letter blank l3"></div>
+                        <div class="letter blank l4"></div>
+                        <div class="letter blank l5"></div>
+                    </div>
+                    <div class="grid center-content row r3">
+                        <div class="letter blank l1"></div>
+                        <div class="letter blank l2"></div>
+                        <div class="letter blank l3"></div>
+                        <div class="letter blank l4"></div>
+                        <div class="letter blank l5"></div>
+                    </div>
+                    <div class="grid center-content row r4">
+                        <div class="letter blank l1"></div>
+                        <div class="letter blank l2"></div>
+                        <div class="letter blank l3"></div>
+                        <div class="letter blank l4"></div>
+                        <div class="letter blank l5"></div>
+                    </div>
+                    <div class="grid center-content row r5">
+                        <div class="letter blank l1"></div>
+                        <div class="letter blank l2"></div>
+                        <div class="letter blank l3"></div>
+                        <div class="letter blank l4"></div>
+                        <div class="letter blank l5"></div>
+                    </div>
+                    <div class="grid center-content row r6">
+                        <div class="letter blank l1"></div>
+                        <div class="letter blank l2"></div>
+                        <div class="letter blank l3"></div>
+                        <div class="letter blank l4"></div>
+                        <div class="letter blank l5"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="keyboard-box grid center-content">
+            <div id="keyboard">
+                <div class="keyrow center-content">
+                    <button class="key" data-key="q"><i class="fa-solid fa-q"></i></button>
+                    <button class="key" data-key="w"><i class="fa-solid fa-w"></i></button>
+                    <button class="key" data-key="e"><i class="fa-solid fa-e"></i></button>
+                    <button class="key" data-key="r"><i class="fa-solid fa-r"></i></button>
+                    <button class="key" data-key="t"><i class="fa-solid fa-t"></i></button>
+                    <button class="key" data-key="y"><i class="fa-solid fa-y"></i></button>
+                    <button class="key" data-key="u"><i class="fa-solid fa-u"></i></button>
+                    <button class="key" data-key="i"><i class="fa-solid fa-i"></i></button>
+                    <button class="key" data-key="o"><i class="fa-solid fa-o"></i></button>
+                    <button class="key" data-key="p"><i class="fa-solid fa-p"></i></button>
+                </div><div class="keyrow center-content">
+                    <button class="key" data-key="a"><i class="fa-solid fa-font"></i></button>
+                    <button class="key" data-key="s"><i class="fa-solid fa-s"></i></button>
+                    <button class="key" data-key="d"><i class="fa-solid fa-d"></i></button>
+                    <button class="key" data-key="f"><i class="fa-solid fa-f"></i></button>
+                    <button class="key" data-key="g"><i class="fa-solid fa-g"></i></button>
+                    <button class="key" data-key="h"><i class="fa-solid fa-h"></i></button>
+                    <button class="key" data-key="j"><i class="fa-solid fa-j"></i></button>
+                    <button class="key" data-key="k"><i class="fa-solid fa-k"></i></button>
+                    <button class="key" data-key="l"><i class="fa-solid fa-l"></i></button>
+                </div>
+                <div class="keyrow center-content">
+                    <button class="key" data-key="↵" class="one-and-a-half"><i class="fa-solid fa-e"></i><i class="fa-solid fa-n"></i><i class="fa-solid fa-t"></i><i class="fa-solid fa-e"></i><i class="fa-solid fa-r"></i></button>
+                    <button class="key" data-key="z"><i class="fa-solid fa-z"></i></button>
+                    <button class="key" data-key="x"><i class="fa-solid fa-x"></i></button>
+                    <button class="key" data-key="c"><i class="fa-solid fa-c"></i></button>
+                    <button class="key" data-key="v"><i class="fa-solid fa-v"></i></button>
+                    <button class="key" data-key="b"><i class="fa-solid fa-b"></i></button>
+                    <button class="key" data-key="n"><i class="fa-solid fa-n"></i></button>
+                    <button class="key" data-key="m"><i class="fa-solid fa-m"></i></button>
+                    <button class="key" data-key="←" class="one-and-a-half">
+                        <i class="fa-solid fa-delete-left"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/2e59e30a69.js" crossorigin="anonymous"></script>
 </html>

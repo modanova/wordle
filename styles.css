@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(251, 251, 251);
+}
+header {
+    width: 90vw;
+    grid-template-columns: 1fr 10fr 1fr;;
+    margin: 5px;
+}
+button {
+    border: none;
+    background-color: inherit;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.center {
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+}
+
+.wrapper {
+    height: 100vh;
+    flex-direction: column;
+    grid-template-rows: 1fr 10fr 4fr;
+    justify-items: start;
+}
+
+.gm-outline {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    justify-items: stretch;
+    gap: 5px;
+}
+
+.center-content {
+    justify-content: center;
+}
+
+.letter {
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid lightgray;
+}
+
+.row {
+    grid-template-columns: repeat(5, 1fr);;
+}
+
+/* Keyboard */
+
+.key {
+    padding: 12px 18px;
+    border: none;
+    background-color: gainsboro;
+}
+
+.keyrow {
+    display: flex;
+    width: 100%;
+    margin: 2px auto 8px;
+    gap: 5px;
+    touch-action: manipulation;
+}
